@@ -1,62 +1,45 @@
-# 金融 Playbook
+# 金融 Router
 
-Use this file when the user's niche, product, client, or content request matches `金融`. This is a synthesized playbook derived from the C-column Agent row `27: 金融行业观点情绪选题生成器` and its set attachment name `金融行业观点情绪选题生成器.md`. Do not copy the original source prompt text.
+Use with `references/industry-module-framework.md`. This is a routing module, not a concrete playbook. Use it only when the user says `金融` or `金融行业` and the exact subcategory is unclear.
 
-## Audience
+Source: row 27 `金融行业观点情绪选题生成器`, converted into a router because it overlaps with several narrower regulated modules.
 
-Primary audience: 理财用户、企业融资用户、金融产品关注者.
+## Aliases
 
-Decision context: the audience is usually comparing options, managing uncertainty, and looking for a trustworthy rule of thumb before commenting, saving, consulting, or buying.
+- 金融
+- 金融行业
+- 金融产品
+- 金融服务
 
-## Core Emotional Tension
+## Use When
 
-资产增长愿望与风险不透明.
+- The request only says financial industry, financial product, or financial services without a clear subcategory.
+- The task is to choose the correct finance-related module before creating topics, scripts, or private-domain conversion.
 
-Turn this tension into content by naming the user's real-life scene first, then explaining the hidden decision variable. Avoid abstract marketing language.
+## Do Not Use When
 
-## Trust Barriers
+- Use `personal-finance.md` for ordinary household理财, budgeting, emergency funds, and basic asset allocation.
+- Use `stocks-futures.md` for stock/futures trading, investor education, or market psychology.
+- Use `financing-loans.md` for new loans, financing qualification, approval, rates, or business cash turnover.
+- Use `debt-optimization.md` for existing debt pressure, overdue accounts, repayment sequence, or negotiation preparation.
+- Use `wealth-management.md` for high-income family asset allocation and wealth preservation planning.
+- Use `high-net-worth.md` for high-net-worth audience identity, privacy, inheritance, and family governance.
+- Use `insurance.md` for coverage, policies, claims, exclusions, and family protection planning.
+- Use `blockchain-web3.md` for Web3, crypto, wallet safety, or project due diligence.
 
-Key barriers: 资质、收益承诺、费用、适当性.
+## Routing Table
 
-Address trust through process visibility, decision checklists, case boundaries, cost breakdowns, qualification notes, and plain-language explanations.
-
-## Topic Clusters
-
-| Topic Cluster | Emotional Trigger | Opening Move | CTA |
-| --- | --- | --- | --- |
-| 看懂风险等级 | 焦虑 | 用一个具体场景指出用户正在忽略的代价 | 评论关键词/自查清单 |
-| 收益率背后的代价 | 好奇 | 用一个具体场景指出用户正在忽略的代价 | 评论关键词/自查清单 |
-| 金融骗局识别 | 安心 | 用一个具体场景指出用户正在忽略的代价 | 评论关键词/自查清单 |
-| 适合比高收益更重要 | 后悔 | 用一个具体场景指出用户正在忽略的代价 | 评论关键词/自查清单 |
-| 家庭资产底线 | 身份认同 | 用一个具体场景指出用户正在忽略的代价 | 评论关键词/自查清单 |
-
-## Short-Video Script Pattern
-
-1. Start with a concrete mistake or decision scene in this vertical.
-2. Name the emotional pressure without blaming the viewer.
-3. Reveal one expert decision rule, checklist, or comparison standard.
-4. Add proof: process, case boundary, receipt, demo, or common failure mode.
-5. End with a low-friction action: comment a keyword, save the checklist, ask for a diagnosis, request a quote, or compare options.
-
-## Private-Domain Handoff
-
-- First reply: acknowledge the exact topic they commented on and offer the relevant checklist or diagnostic question.
-- Segment by stage: researching, comparing, urgent, after a bad experience, ready to buy.
-- Ask no more than 3 qualification questions before giving value.
-- Move qualified leads to consultation, quote, store visit, audit, or plan draft.
-- Record objections as future content topics.
-
-## Prompt Skeleton
-
-```text
-你是金融的中文营销策划助手。
-请为[产品/服务]面向[目标人群]生成[数量]条短视频选题。
-每条必须包含：选题、目标人群、情绪触发、冲突点、前三秒钩子、正文推进、信任证据、评论/私信引导、合规风险。
-请优先使用具体场景、真实决策压力和可执行自查标准；不要复制来源提示词原文，不要编造数据或案例。
-```
+| User Says | Load |
+| --- | --- |
+| 理财、家庭资产、备用金、退休规划 | `personal-finance.md` |
+| 股票、期货、交易、仓位、市场情绪 | `stocks-futures.md` |
+| 融资、贷款、放款、利率、企业周转 | `financing-loans.md` |
+| 负债、逾期、协商、上岸、还款顺序 | `debt-optimization.md` |
+| 财富管理、资产配置、家族目标 | `wealth-management.md` |
+| 高净值、隐私、传承、家族治理 | `high-net-worth.md` |
+| 保险、保单、理赔、保障规划 | `insurance.md` |
+| 区块链、Web3、钱包、项目尽调 | `blockchain-web3.md` |
 
 ## Compliance Notes
 
-不得承诺收益；不得替代持牌金融顾问；强调风险揭示.
-
-If the user asks for claims, numbers, legal/medical/financial conclusions, or guaranteed outcomes, mark them as assumptions or require source verification.
+Financial content is regulated and high-risk. Do not recommend specific products, securities, loans, policies, crypto assets, or guaranteed returns. State assumptions and require source verification for laws, rates, fees, yield, approval, tax, and suitability claims.
