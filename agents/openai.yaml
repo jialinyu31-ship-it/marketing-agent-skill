@@ -1,0 +1,4 @@
+interface:
+  display_name: "Xinghe Marketing Agent Skill"
+  short_description: "Chinese marketing agent workflows and content playbooks"
+  default_prompt: "Use $xinghe-marketing-skill to create a short-video marketing plan for my niche."
