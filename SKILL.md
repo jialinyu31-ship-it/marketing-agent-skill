@@ -1,13 +1,13 @@
 ---
-name: xinghe-marketing-skill
+name: marketing-agent-skill
 description: "Use this skill for Chinese marketing strategy and AI-agent workflows: personal IP positioning, industry research, emotional POV topic planning, short-video scripts, content style review, comment/private-domain conversion, and information-flow campaign planning. Trigger when the user asks to turn marketing materials, prompts, notes, niches, products, or audience insights into executable marketing playbooks or content prompts."
 ---
 
-# Xinghe Marketing Skill
+# Marketing Agent Skill
 
 ## Source And Rights
 
-This skill is a synthesized working method distilled from the local Feishu Base export and its attachments. The source attachments include copyright and non-commercial notices from Wang Pengyou/Xinghe. Do not reproduce the original attachment text, full prompts, or proprietary examples verbatim. Use this skill to generate new strategy, prompts, checklists, and content based on the user's current business context.
+This skill is a synthesized working method distilled from the local Feishu Base export and its attachments. The source attachments include copyright and non-commercial notices from the original rights holder. Do not reproduce the original attachment text, full prompts, or proprietary examples verbatim. Use this skill to generate new strategy, prompts, checklists, and content based on the user's current business context.
 
 ## Workflow
 

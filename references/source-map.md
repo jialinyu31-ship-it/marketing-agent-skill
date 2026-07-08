@@ -23,7 +23,7 @@ The source set covered these recurring agent families:
 
 ## Rights Handling
 
-Many source attachments contain explicit copyright notices from Wang Pengyou/Xinghe and non-commercial limitations. This repository should not include:
+Many source attachments contain explicit copyright notices from the original rights holder and non-commercial limitations. This repository should not include:
 
 - Raw attachment files.
 - Full proprietary prompts.
