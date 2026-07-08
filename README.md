@@ -98,6 +98,12 @@ marketing-agent-skill/
     ├── private-domain-and-ops.md
     ├── quality-and-style.md
     ├── industry-playbooks.md
+    ├── industries/
+    │   ├── index.md
+    │   ├── insurance.md
+    │   ├── tax-accounting.md
+    │   ├── renovation-materials.md
+    │   └── ...
     └── source-map.md
 ```
 
@@ -112,7 +118,28 @@ marketing-agent-skill/
 | `references/private-domain-and-ops.md` | 评论区运营、私域承接、信息流和转化 SOP |
 | `references/quality-and-style.md` | 去 AI 味、原创度、风格提取、合规和终审 |
 | `references/industry-playbooks.md` | 多个垂类的情绪张力、信任障碍和内容角度 |
+| `references/industries/index.md` | 按 C 列 Agent 拆出的 46 个行业/人群模块索引 |
+| `references/industries/*.md` | 单行业 playbook，包含人群、情绪张力、选题簇、脚本框架、私域和合规 |
 | `references/source-map.md` | 来源范围、整理原则和版权边界说明 |
+
+## Industry Modules
+
+The skill now includes 46 C-column industry/group playbooks. When a user names a vertical, Codex should load `references/industries/index.md` and then the matching file.
+
+Examples:
+
+| Vertical | File |
+| --- | --- |
+| 保险 | `references/industries/insurance.md` |
+| 财税 | `references/industries/tax-accounting.md` |
+| 餐饮 | `references/industries/catering.md` |
+| 房产 | `references/industries/real-estate.md` |
+| 装修建材 | `references/industries/renovation-materials.md` |
+| 宠物 | `references/industries/pets.md` |
+| 医疗 | `references/industries/medical.md` |
+| 债务优化 | `references/industries/debt-optimization.md` |
+| 财富管理 | `references/industries/wealth-management.md` |
+| 高净值人群 | `references/industries/high-net-worth.md` |
 
 ## Output Standards
 

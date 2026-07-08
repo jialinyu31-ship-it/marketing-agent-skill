@@ -1,6 +1,6 @@
 ---
 name: marketing-agent-skill
-description: "Use this skill for Chinese marketing strategy and AI-agent workflows: personal IP positioning, industry research, emotional POV topic planning, short-video scripts, content style review, comment/private-domain conversion, and information-flow campaign planning. Trigger when the user asks to turn marketing materials, prompts, notes, niches, products, or audience insights into executable marketing playbooks or content prompts."
+description: "Use this skill for Chinese marketing strategy and AI-agent workflows: personal IP positioning, industry research, emotional POV topic planning, short-video scripts, content style review, comment/private-domain conversion, information-flow campaign planning, and vertical-specific marketing playbooks. Trigger when the user asks to turn marketing materials, prompts, notes, niches, products, C-column Agent names, industry categories, or audience insights into executable marketing playbooks or content prompts."
 ---
 
 # Marketing Agent Skill
@@ -17,6 +17,7 @@ This skill is a synthesized working method distilled from the local Feishu Base 
    - Comment operation, private-domain conversion, lead nurturing, information-flow ads, or funnel design: `references/private-domain-and-ops.md`.
    - Anti-AI rewriting, style extraction, originality review, risk review, or final content audit: `references/quality-and-style.md`.
    - Vertical-specific topic angles and trust barriers: `references/industry-playbooks.md`.
+   - C-column industry/group Agent modules such as insurance, tax, catering, real estate, pets, medical, debt, or high-net-worth: first load `references/industries/index.md`, then load the matching `references/industries/*.md` file.
    - Source coverage, licensing notes, and extraction scope: `references/source-map.md`.
 2. If product, audience, platform, offer, region, conversion goal, or brand tone is missing, state concise assumptions and proceed. Ask only when the missing detail can change the core strategy.
 3. Build the answer in this order:

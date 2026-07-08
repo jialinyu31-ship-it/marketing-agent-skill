@@ -20,6 +20,7 @@ The source set covered these recurring agent families:
 - Short-video topics, hooks,口播 scripts, story fragments, and storyboard planning.
 - Style extraction, anti-AI rewriting, originality review, and final audit.
 - Comment operations, private-domain conversion, information-flow marketing, and funnel SOPs.
+- 46 C-column industry/group playbooks under `references/industries/`.
 
 ## Rights Handling
 

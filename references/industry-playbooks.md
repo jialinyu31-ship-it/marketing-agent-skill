@@ -2,6 +2,8 @@
 
 Use this file to pick vertical-specific audience tensions, trust barriers, and content angles. Treat these as starting hypotheses, not verified market research.
 
+For detailed C-column industry/group modules, first load `references/industries/index.md`, then load the matching file under `references/industries/`. The detailed files contain per-vertical audience, emotional tension, trust barriers, topic clusters, script pattern, private-domain handoff, and compliance notes.
+
 ## Vertical Angle Map
 
 | Vertical | Audience Tension | Trust Barrier | Content Angles |
