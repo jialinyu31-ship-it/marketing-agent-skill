@@ -1,5 +1,12 @@
 # 金融 Router
 
+## 文件用途
+
+- File type: finance router, not a concrete topic playbook.
+- Purpose: Use when the user only says `金融` or financial industry and the exact subcategory is unclear.
+- Loading order: load `references/industry-module-framework.md` first, then this file; this file supplies vertical-specific audience insight, emotional tension, trust barriers, topic clusters, and routing boundaries.
+- Source boundary: synthesized from C-column Agent names and attachment knowledge; do not copy original prompts, full cases, or copyrighted source text.
+
 Use with `references/industry-module-framework.md`. This is a routing module, not a concrete playbook. Use it only when the user says `金融` or `金融行业` and the exact subcategory is unclear.
 
 Source: row 27 `金融行业观点情绪选题生成器`, converted into a router because it overlaps with several narrower regulated modules.

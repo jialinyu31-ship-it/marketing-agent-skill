@@ -1,5 +1,12 @@
 # 出国留学 / 留学 Playbook
 
+## 文件用途
+
+- File type: industry vertical playbook.
+- Purpose: Use when the user's niche, product, client, content, or conversion goal matches `出国留学 / 留学`.
+- Loading order: load `references/industry-module-framework.md` first, then this file; this file supplies vertical-specific audience insight, emotional tension, trust barriers, topic clusters, and routing boundaries.
+- Source boundary: synthesized from C-column Agent names and attachment knowledge; do not copy original prompts, full cases, or copyrighted source text.
+
 Use with `references/industry-module-framework.md`. This module merges the duplicated C-column rows for `出国留学` and `留学`.
 
 Source: merged from row 11 `出国留学行业观点情绪选题生成器` and row 30 `留学行业观点情绪选题生成器`.

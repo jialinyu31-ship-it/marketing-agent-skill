@@ -126,7 +126,7 @@ marketing-agent-skill/
 
 ## Industry Modules
 
-The skill now includes 45 routed industry/group files covering 46 C-column Agent rows. `出国留学` and `留学` are merged into one file, and `金融` is a router for narrower regulated modules. When a user names a vertical, Codex should load `references/industry-module-framework.md`, then `references/industries/index.md`, then the matching file.
+The skill now includes 45 routed industry/group files covering 46 C-column Agent rows. `出国留学` and `留学` are merged into one file, and `金融` is a router for narrower regulated modules. When a user names a vertical, Codex should load `references/industry-module-framework.md`, then `references/industries/index.md`, then the matching file. Every file under `references/industries/` starts with `## 文件用途`, explaining whether it is an industry playbook, audience/group module, or router.
 
 Examples:
 

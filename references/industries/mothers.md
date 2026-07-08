@@ -1,5 +1,12 @@
 # 宝妈 Playbook
 
+## 文件用途
+
+- File type: audience/group playbook.
+- Purpose: Use when the target audience, tone, conversion path, or private-domain handoff centers on `宝妈`.
+- Loading order: load `references/industry-module-framework.md` first, then this file; this file supplies vertical-specific audience insight, emotional tension, trust barriers, topic clusters, and routing boundaries.
+- Source boundary: synthesized from C-column Agent names and attachment knowledge; do not copy original prompts, full cases, or copyrighted source text.
+
 Use with `references/industry-module-framework.md`. This module contains only the vertical-specific routing and insight layer.
 
 Source: Use this file when the user's niche, product, client, or content request matches `宝妈`. This is a synthesized playbook derived from the C-column Agent row `7: 宝妈人群观点情绪选题生成器` and its set attachment name `宝妈人群观点情绪选题生成器.md`. Do not copy the original source prompt text.
